@@ -1,0 +1,38 @@
+.galery {
+    background-color: var(--cor-fundo-base);
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.cards-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.container-galery {
+    max-width: 350px;
+    background-color: var(--cor-fundo-base);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+    text-align: left;
+}
+
+.container-galery:hover {
+    transform: translateY(-5px);
+}
+
+.container-galery img {
+    width: 100%;
+    height: 500px;
+}
+
+.galery-text {
+    padding: 15px 20px;
+    color: var(--cor-texto-principal);
+    font-size: 1.1em;
+    font-weight: 500;
+}

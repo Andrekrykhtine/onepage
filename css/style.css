@@ -1,0 +1,43 @@
+:root {
+    /* ======================================
+    Paleta de Cores - PixelArt Studio
+    ======================================
+    */
+
+    /* Base / Fundo */
+    --cor-fundo-base: #F5F5F5;
+    /* Off-White (Limpo e moderno) */
+    --cor-fundo-secundario: #E0E0E0;
+    /* Cinza Claro (Seções secundárias) */
+
+    /* Tipografia */
+    --cor-texto-principal: #1A1A1A;
+    /* Quase Preto (Contraste elegante) */
+
+
+    /* Destaques (CTAs, Links) */
+    --cor-destaque-primario: #7B68EE;
+    /* Roxo Ametista (Criatividade e CTA principal) */
+    --cor-destaque-secundario: #FF6F61;
+    /* Vermelho Coral Suave (Destaques sutis e estado hover) */
+
+    /* Estrutura / Profundidade */
+    --cor-neutro-profundo: #34495E;
+    /* Azul Escuro/Cinza (Rodapé, seções de fundo escuro) */
+
+    --fonte-principal: 'Manrope', sans-serif;
+    --fonte-pixel: 'Press Start 2P', monospace;
+}
+
+
+
+body {
+    background-color: var(--cor-fundo-base);
+    color: var(--cor-texto-principal);
+}
+
+.title {
+    color: var(--cor-neutro-profundo);
+    margin-bottom: 40px;
+    font-size: 2.2rem;
+}

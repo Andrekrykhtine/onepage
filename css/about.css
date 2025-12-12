@@ -1,0 +1,69 @@
+.about {
+    background-color: var(--cor-fundo-secundario);
+    gap: 50px;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.container-about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container {
+    color: var(--cor-texto-principal);
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    margin-right: 40px;
+}
+
+.container.about-mission {
+    background-color: #f57474;
+    border-radius: 15px;
+
+}
+
+.container.about-methodology {
+    background-color: rgb(151, 177, 247);
+
+    border-radius: 15px;
+}
+
+.container.about-call {
+    background-color: rgb(163, 219, 163);
+
+    border-radius: 15px;
+}
+
+.container-img {
+    margin: 0 auto;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 900px) {
+    .container-about {
+        flex-direction: column;
+    }
+
+    .container {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .container-img {
+        padding: 20px 0;
+    }
+}

@@ -1,0 +1,19 @@
+.footer{
+  background-color: var(--cor-neutro-profundo);
+    color: var(--cor-fundo-base);
+    height: 100px;
+}
+
+.social-media{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 30px;
+}
+
+.social-media a:hover{
+    color: var(--cor-destaque-primario);
+    transition: color 0.3s ease;
+}

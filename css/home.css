@@ -1,0 +1,37 @@
+.home{
+    background-image: url('/onepage/images/fundo.png'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-text{
+    max-width: 700px;
+    text-align: center;
+}
+.name{
+    font-family: var(--fonte-pixel);
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--cor-fundo-base);
+}
+.slogan{
+    font-size: 2rem;
+    margin-top: 10px;
+    color: var(--cor-fundo-base);
+}
+
+@media (max-width: 768px) {
+    .home{
+        height: 70vh;
+    }
+    .name{
+        font-size: 2.2rem;
+    }
+    .slogan{
+        font-size: 1.5rem;
+    }
+}

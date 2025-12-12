@@ -1,0 +1,30 @@
+.header {
+    background-color: var(--cor-neutro-profundo);
+    color: var(--cor-fundo-base);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+    margin: 10px 20px;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+    margin-right: 60px;
+}
+
+.menu :hover {
+    color: var(--cor-destaque-primario);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.menu .category {
+    font-weight: 500;
+    font-size: 18px;
+}
